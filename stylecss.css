@@ -1,0 +1,287 @@
+body
+{
+  margin: 0;
+}
+/* .navigation-bar
+{
+  background-color: rgb(34, 192, 84);
+  height: 50px;
+  width: 99%;
+}
+.navigation-bar a
+{
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.navigation-bar a:hover
+{
+  background-color: yellow;;
+} */
+
+/*how to center things*/
+
+/* .centered
+{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.main */
+/* {
+  background-color: rgb(129, 146, 187);
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main a
+{
+  text-decoration: none;
+  font-size: 20px;
+  height: 100%;
+  color: blue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+} */
+
+/* .main a:hover
+{
+  background-color: aqua;
+} */
+/* .container
+{
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.box
+{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  background-color: yellow;
+  border: 2px solid black;
+  flex-wrap: nowrap;
+} */
+/* 
+.centerbox
+{
+  background-color: orange;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child
+{
+  width: 170px;
+  height: 150px;
+  background-color: red;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.class-accordion
+{
+  display: block;
+  background-color: rgba(0, 255, 42, 0.745);
+  height: 400px;
+} */
+/* .class-accordion button
+{
+  border: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.class-accordion button:hover
+{
+  background-color: yellowgreen;
+  opacity: 0.5;
+} */
+/* 
+.container-buttons
+{
+  background-color: gray;
+  opacity: 0.8;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-buttons button
+{
+  height: 30px;
+  width: 30px;
+  background-color: antiquewhite;
+  opacity: 1.7;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.actived
+{
+  background-color: red;
+} */
+
+/* .arrow-up
+{
+  width: 0px; 
+  height: 50px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid;
+}
+.list-item
+{
+  height: 70px;
+  width: 70px;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .list-item:hover
+{
+  background-color: green ;
+  opacity: 50%;
+  position: relative;
+} */
+/* .chile-list-item:hover
+{
+  background-color: aquamarine;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 100px;
+} */
+/* .accordion
+{
+  background-color: beige;
+  border: none;
+  display: block;
+  width: 500px;
+  height: 50px;
+}
+.accordion:hover
+{
+  background-color: aqua;
+}
+
+.panel
+{
+  display: none;
+}
+
+.container-tab
+{
+  background-color: beige;
+}
+.container-tab button
+{
+  background-color: aqua;
+  border: none;
+  height: 100%;
+
+} */
+
+
+.dropdown
+{
+  background-color: antiquewhite;
+}
+.dropdown button
+{
+  border: none;
+  height: 50px;
+  width: 100px;
+  font-weight : bold;  
+}
+
+.drop-container button
+{
+}
+
+.dropdown button:hover
+{
+  background-color: aquamarine;
+}
+
+.drop-container a
+{
+  display: none;
+}
+
+.drop-content a
+{
+  text-decoration: none;
+}
+
+.drop-container:hover .drop-content a
+{
+  background-color: red;
+}
+
+.dropdown button
+{
+  float: left;
+}
+
+#triangle-up
+{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid red;
+}
+
+#triangle-down
+{
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+.drop-container button #triangle-up
+{
+  display: inline-block;
+}
+
+.w3-bar
+{
+  background-color: rgb(132, 124, 124);
+  height: 100px;
+}
+
+.w3-bar .w3-bar-btns-left a
+{
+  text-decoration: none;
+  height: 100px;
+  display: block;
+}
+.w3-bar .w3-bar-btns-left a:hover
+{
+  background-color: aquamarine;
+}
+
+

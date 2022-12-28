@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <style>
+
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Shopee</title>
+        <link rel="icon" href="logo-shopee.jpg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylecss.css">
+        <script src="script.js" async defer></script>
+    </head>
+    <body>
+        <!-- <div class="main">
+            <a href="">Home</a><a href="">Search</a><a href="" >Sign in</a> 
+        </div> -->
+        <!-- <div class="class-accordion">
+            <button>Section1</button>
+            <p>This is Section 1</p>
+            <button>Section2</button>
+            <p>This is Section 2</p>
+            <button>Section3</button>
+            <p>This is Section 3</p>
+        </div> -->
+        <!-- <div id="test">
+            <button class="actived">1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+        </div> -->
+        <!-- <p id="demo"></p> -->
+        <!-- <div class="arrow-up">
+        </div> -->
+
+        
+        <!-- <button class="accordion">Section 1</button>
+        <div class="panel">This is section 1</div>
+        <button class="accordion">Section 2</button>
+        <div class="panel">This is section 2</div>
+        <button class="accordion">Section 3</button>
+        <div class="panel">This is section 3</div> -->
+        
+        <div class="w3-bar">
+            <div class="w3-bar-btns-left">
+                <a href="">Tutorials</a>
+            </div>
+        </div>
+    </body>
+    <script>
+        const arrButton = document.getElementsByTagName("button");
+        arrButton[0].addEventListener('click', function()
+        {
+            document.getElementsByTagName("p")[0].style.display = "block";
+        })
+        var getArrButtons = document.getElementById("test").getElementsByTagName("button");
+        for(var index = 0; index < getArrButtons.length; index++)
+        {
+            getArrButtons[index].addEventListener('click', function(){
+                document.getElementsByClassName("actived")[0].className.replace(" actived", "");
+                this.className = " actived";
+            })
+        }
+
+        /*accordion*/
+         var acc = document.getElementsByClassName("accordion");
+         var i;
+
+         for (i = 0; i < acc.length; i++) {
+         acc[i].addEventListener("click", function() {
+             var panel = this.nextElementSibling;
+             if (panel.style.display === "none") {
+             panel.style.display = "block";
+             } else {
+             panel.style.display = "none";
+             }
+         });
+         }
+
+        /*tab*/
+    </script>
+
+</html>

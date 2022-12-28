@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+}
+.icon-bar
+{
+    background-color: #555;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    
+}
+.icon-bar a {
+    height: 100%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.icon-bar a:hover{
+    background-color: black;
+}
