@@ -8,7 +8,7 @@ body
     height: 150px;
     font-size: 30px;
     color: white;
-    display: flex;
+    display: flex; 
     
 }
 .icon-bar a {

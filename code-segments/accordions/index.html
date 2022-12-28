@@ -7,19 +7,25 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="icon-bar">
-            <a href="#"><i class="fa fa-trash"></i></a>
-            <a href="#"><i class="fa fa-globe"></i></a>
-            <a href="#"><i class="fa fa-search"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
+        <div class="accordion-container">
+            <button>Section1</button>
+            <div class="accordion-content">This is section 1</div>
+            <button>Section2</button>
+            <div class="accordion-content">This is section 2</div>
+            <button>Section3</button>
+            <div class="accordion-content">This is section 3</div>
         </div>
-        <script src="./script.js"></script>
+        <p id="demo"></p>
+        
+        <script src="" async defer>
+            var arrBtns = document.getElementsByTagName("button").length;
+            document.getElementById("demo").innerHTML = arrBtns;
+        </script>
     </body>
 </html>
